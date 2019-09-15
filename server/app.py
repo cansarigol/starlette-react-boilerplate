@@ -1,9 +1,8 @@
 from starlette.applications import Starlette
 from starlette.requests import Request
 from starlette.responses import Response
-from starlette.templating import Jinja2Templates
 from starlette.staticfiles import StaticFiles
-
+from starlette.templating import Jinja2Templates
 
 app = Starlette(debug=True)
 app.mount("/static", StaticFiles(directory="static"), name="static")
