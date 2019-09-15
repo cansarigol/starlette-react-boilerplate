@@ -1,0 +1,60 @@
+{
+  "name": "starlette_react_test",
+  "main": "webpacks/webpack.common.js",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "react-dom": "^16.8.6",
+    "react-google-charts": "^3.0.14",
+    "react-redux": "^7.1.0",
+    "react-test-renderer": "^16.8.6",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-standard": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.8.0",
+    "js-cookie": "^2.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-hot-loader": "^4.12.6",
+    "uglifyjs-webpack-plugin": "^2.1.3",
+    "webpack": "^4.35.2",
+    "webpack-bundle-tracker": "^0.4.2-beta",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --hot --inline --config webpacks/webpack.dev.js",
+    "build": "rm -rf static/webpack_bundles/* && webpack --config webpacks/webpack.prod.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cansarigol/starlette_react_test.git"
+  },
+  "author": "Can Sarıgöl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cansarigol/starlette_react_test/issues"
+  },
+  "homepage": "https://github.com/cansarigol/starlette_react_test#readme"
+}

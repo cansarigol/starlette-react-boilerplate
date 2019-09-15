@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+starlette = {extras = ["full"],version = "*"}
+uvicorn = "*"
+
+[requires]
+python_version = "3.7"
+
+
+[dev-packages]
+tox = ">=3.*"
+autoflake = "*"
+black = "*"
+flake8-bugbear = "*"
+flake8-comprehensions = "*"
+flake8-isort = "*"
+flake8 = "*"
+coverage = "*"
+codecov = "*"
+
+[pipenv]
+allow_prereleases = true
