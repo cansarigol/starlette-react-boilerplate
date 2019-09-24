@@ -6,10 +6,10 @@ verify_ssl = true
 [packages]
 starlette = {extras = ["full"],version = "*"}
 uvicorn = "*"
+pony = "*"
 
 [requires]
 python_version = "3.7"
-
 
 [dev-packages]
 tox = ">=3.*"

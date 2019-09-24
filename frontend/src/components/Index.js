@@ -12,7 +12,9 @@ class Index extends Component {
 		);
 	}
 }
-const mapStateToProps = ({
+/* const mapStateToProps = ({
 	// x: state.x
 });
 export default connect(mapStateToProps)(Index);
+*/
+export default Index;
